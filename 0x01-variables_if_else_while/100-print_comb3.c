@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Point of entry
@@ -10,21 +8,31 @@
 
 int main(void)
 {
-	int d;
+	int k = '0';
+	int l = '0';
 
-	for (d = 0; d < 90; d++)
+	while (k <= '9')
 	{
-		for ()
+		while (l <= '9')
 		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
+			if (!(k > l || k ==l))
+			{
+				putchar(k);
+				putchar(l);
+				if (k == '8' && l == '9')
+				{
+					putchar('\n');
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}	
+			l++;
 		}
-		if (d != 89)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		l = '0';
+		k++;
 	}
-	putchar('\n');
 	return (0);
 }

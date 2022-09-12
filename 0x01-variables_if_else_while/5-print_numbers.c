@@ -5,7 +5,7 @@
 /**
  * main - Executable function
  *
- * Return Success 0 (Always)
+ * Return: Success 0 (Always)
  */
 
 int main(void)

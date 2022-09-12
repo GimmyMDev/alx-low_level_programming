@@ -3,9 +3,9 @@
 #include<time.h>
 
 /*
- * main - executable function
+ * main - Executable function
  *
- * Return: 0 if program that prints the alphabet in lowercase, followed by a new line
+ * Return: Success 0
  */
 
 int main(void)

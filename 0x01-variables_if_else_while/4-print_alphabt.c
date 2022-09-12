@@ -3,7 +3,7 @@
 #include<time.h>
 
 /*
- * main - function
+ * main - executable function
  *
  * Return: 0 if program that prints the alphabet in lowercase, followed by a new line
  */
@@ -11,6 +11,7 @@
 int main(void)
 {
 	char low, e, q;
+
 	e = 'e';
 	q = 'q';
 

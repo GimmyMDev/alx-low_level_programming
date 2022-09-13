@@ -13,10 +13,12 @@ void print_to_98(int i)
 	{
 		for (i = i; i <= 98; i++)
 			printf("%d, ", i);
+		printf("%d\0", 98);
 	}
 	else
 	{
 		for (i = i; i >= 98; i--)
 			printf("%d, ", i);
+		printf("%d\0", 98);
 	}
 }

@@ -6,7 +6,7 @@
  * Return: prints a square
  */
 
-void print_square(int n)
+void print_square(int size)
 {
 	int co, ro;
 

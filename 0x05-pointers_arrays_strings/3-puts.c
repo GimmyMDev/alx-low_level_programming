@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * puts - Function to print a string followed by a new line
+ * _puts - Function to print a string followed by a new line
  * 
  * @str: sting input
  */
 
-void puts(char *str)
+void _puts(char *str)
 {
 	int index;
 

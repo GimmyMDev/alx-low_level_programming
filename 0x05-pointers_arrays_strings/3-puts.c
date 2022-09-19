@@ -3,7 +3,7 @@
 /**
  * _puts - Function to print a string followed by a new line
  * 
- * @str: sting input
+ * @str: string input
  */
 
 void _puts(char *str)

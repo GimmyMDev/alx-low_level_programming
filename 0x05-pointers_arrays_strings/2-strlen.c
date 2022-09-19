@@ -2,7 +2,8 @@
 
 /**
  * _strlen - length of a string
- * @c: character test
+ * @s: character test
+ * Return:: Index
  */
 
 int _strlen(char *s)

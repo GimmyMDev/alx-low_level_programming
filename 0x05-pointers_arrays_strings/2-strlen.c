@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * strlen - length of a string
+ * _strlen - length of a string
  * @s: character test
  * Return: Index
  */
-
 int _strlen(char *s)
 {
 	int index;

@@ -23,7 +23,7 @@ char *rot13(char *s)
 			if (s[i] == alpha[j])
 			{
 				s[i] = r[j];
-				boolean = 1;											
+				boolean = 1;
 			}
 		}
 	}

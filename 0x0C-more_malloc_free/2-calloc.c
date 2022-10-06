@@ -12,15 +12,18 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *p;
-	unsigned int i;
+	unsigned int a, b;
+	char *call;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	p = malloc(size * nmemb);
-	if (p == NULL)
+	b = (nmemb * size);
+	call = malloc(b);
+	if (call == NULL)
 		return (NULL);
-	for (i = 0; i < nmemb ; i++)
-		p[i] = 0;
-	return (p);
+	for (a = 0; a < b; a++)
+	{
+		call[a] = 0;
+	}
+	return (call);
 }

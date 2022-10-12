@@ -1,16 +1,19 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
- * print_name - prints a name
+ * print_name - f points to either func in main
  *
- * @name: input string
- * @f: function pointer casted to char pointer
- * @*: char
+ * @name: name
+ * @f: pointer to print upp or non upp func
  *
  * Return: void
  */
 
 void print_name(char *name, void (*f)(char *))
 {
-	(*f)(name);
+	if (name == NULL || f == NULL)
+		return;
+	f(name);
 }

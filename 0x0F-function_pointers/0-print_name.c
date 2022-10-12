@@ -5,6 +5,7 @@
  *
  * @name: input string
  * @f: function pointer casted to char pointer
+ * @*: char
  */
 
 void print_name(char *name, void (*f)(char *))
